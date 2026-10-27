@@ -80,20 +80,16 @@ O relatório permite filtrar os resultados por máquina, turno e intervalo de da
 
 **Indicadores principais:**
 
-Indicador                                                               Resultado
----------------------------------------------------------------------------------------
-Produção total                                                          157 624 peças
-
-Peças defeituosas                                                       4 086
-
-Tempo total de paragem                                                  190,2 horas
-
-Taxa global de defeitos                                                 2,59%
-
+| Indicador | Resultado |
+|---|---:|
+| Produção total | 157 624 peças |
+| Peças defeituosas | 4 086 |
+| Tempo total de paragem | 190,2 horas |
+| Taxa global de defeitos | 2,59% |
 
 **Pré-visualização**
 
-O ficheiro Power BI está disponível no projeto com o nome Industrial_Production_Dashboard.pbix.
+![Dashboard de Produção Industrial](outputs/dashboard.png)
 
 # Principais conclusões
 
@@ -123,19 +119,19 @@ No entanto, os dados disponíveis não permitem identificar diretamente as causa
 
 # Estrutura do projeto
 
+```text
 industrial-production-analysis/
 │
 ├── data/
 │   └── producao_industrial.csv
 │
 ├── outputs/
-│   ├── dashboard.png
-│   └── outros gráficos gerados
+│   └── dashboard.png
 │
 ├── Industrial_Production_Dashboard.pbix
 ├── main.py
 └── README.md
-
+```
 # Possíveis melhorias futuras
 
 · Análise dos motivos das paragens das máquinas
