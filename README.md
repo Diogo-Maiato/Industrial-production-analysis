@@ -10,11 +10,11 @@ O projeto foi desenvolvido para fins de aprendizagem e construção de portefól
 
 # Ferramentas utilizadas
 
-· Python — processamento e análise de dados
-· Pandas — tratamento, agrupamento e exploração dos dados
-· Matplotlib — criação de gráficos
-· Seaborn — visualização de dados
-· Power BI — desenvolvimento de um dashboard interativo
+- Python — processamento e análise de dados
+- Pandas — tratamento, agrupamento e exploração dos dados
+- Matplotlib — criação de gráficos
+- Seaborn — visualização de dados
+- Power BI — desenvolvimento de um dashboard interativo
 
 # Dados utilizados
 
@@ -22,20 +22,20 @@ Foi utilizado um conjunto de dados de produção industrial para o mês de setem
 
 **Características dos dados:**
 
-· 360 registos
-· 4 máquinas industriais
-· 3 turnos de trabalho: manhã, tarde e noite
-· 30 dias de produção
+- 360 registos
+- 4 máquinas industriais
+- 3 turnos de trabalho: manhã, tarde e noite
+- 30 dias de produção
 
 **Variáveis disponíveis:**
 
-·data — data do registo
-·maquina — identificação da máquina
-·turno — turno de produção
-·horas_planeadas — horas de trabalho previstas
-·tempo_paragem_min — tempo de paragem em minutos
-·quantidade_produzida — quantidade de peças produzidas
-·quantidade_defeituosa — quantidade de peças com defeito
+- data — data do registo
+- maquina — identificação da máquina
+- turno — turno de produção
+- horas_planeadas — horas de trabalho previstas
+- tempo_paragem_min — tempo de paragem em minutos
+- quantidade_produzida — quantidade de peças produzidas
+- quantidade_defeituosa — quantidade de peças com defeito
 
 **Nota:** os dados são utilizados para fins educativos e não representam a produção real de uma empresa.
 
@@ -45,32 +45,32 @@ Durante o desenvolvimento do projeto foram realizadas diferentes análises:
 
 1. Exploração e validação dos dados
 
-·Verificação de valores em falta
-·Identificação de registos duplicados
-·Validação dos tipos de dados
-·Conversão e tratamento de datas
+- Verificação de valores em falta
+- Identificação de registos duplicados
+- Validação dos tipos de dados
+- Conversão e tratamento de datas
 
 2. Análise da produção
 
-· Produção total da fábrica
-· Produção por máquina
-· Produção por turno
-· Identificação das máquinas com maior e menor produção
-·Evolução diária da produção
+- Produção total da fábrica
+- Produção por máquina
+- Produção por turno
+- Identificação das máquinas com maior e menor produção
+- Evolução diária da produção
 
 3. Análise da qualidade
 
-· Quantidade total de peças defeituosas
-· Peças defeituosas por máquina
-· Cálculo da taxa de defeitos
-· Comparação da qualidade entre máquinas
+- Quantidade total de peças defeituosas
+- Peças defeituosas por máquina
+- Cálculo da taxa de defeitos
+- Comparação da qualidade entre máquinas
 
 4. Análise dos tempos de paragem
 
-· Tempo total de paragem da fábrica
-· Tempo de paragem por máquina
-· Evolução diária das paragens
-· Comparação entre produção e tempo de paragem
+- Tempo total de paragem da fábrica
+- Tempo de paragem por máquina
+- Evolução diária das paragens
+- Comparação entre produção e tempo de paragem
 
 # Dashboard Power BI
 
